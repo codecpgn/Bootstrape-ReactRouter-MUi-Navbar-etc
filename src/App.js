@@ -8,6 +8,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Login2 from './pages/Login2'
 import Login3 from './pages/Login3'
 import Todolist from './components/Todolist'
+import Boot from './components/Boot'
 const App = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const App = () => {
       <Route path='/login2' element={<Login2/>}/>
       <Route path='/login3' element={<Login3/>}/>
       <Route path='/todolist' element={<Todolist/>}/>
+      <Route path='/boot' element={<Boot/>}/>
    
  </Routes>
     </div>
